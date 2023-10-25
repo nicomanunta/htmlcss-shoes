@@ -4,23 +4,33 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;;
+    
+    font-family: 'Noto Sans Tamil Supplement', sans-serif;
 }
 header{
     background-color: red;
+
     
 }
 
+ul{
+    text-align: end;
+    position: relative;
+    z-index: 1;
+   
+   
+    
+}
 li{
     display: inline;
     margin-right: 20px;
     background-color: white;
     border-radius: 50%;
-    padding: 4px 8px;
-}
-ul{
-    text-align: end;
-    padding: 20px;
+    padding: 10px 14px;
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    
 }
 
 /* MAIN */
@@ -46,4 +56,15 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.testo1, .testo2{
+    font-size: 55px;
+    word-spacing: 50px;
+    text-align: center;
+}
+.testo1{
+    color: yellow;
+}
+.testo2{
+    color: green;
 }
