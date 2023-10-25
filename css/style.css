@@ -22,3 +22,28 @@ ul{
     text-align: end;
     padding: 20px;
 }
+
+/* MAIN */
+.scarpa{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+.scarpa1{
+    background-color: red;
+    
+}
+.scarpa2{
+    background-color: green;
+}
+.scarpa3{
+    background-color: yellow;
+}
+.immagine-testo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
