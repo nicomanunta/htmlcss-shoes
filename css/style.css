@@ -21,6 +21,7 @@ ul{
    
     
 }
+/* NUMERI ELENCO */
 li{
     display: inline;
     margin-right: 20px;
@@ -28,9 +29,18 @@ li{
     border-radius: 50%;
     padding: 10px 14px;
     position: fixed;
+}
+.li-1, .li-2, .li-3{
     top: 50px;
+}
+.li-1{
+    right: 150px;
+}
+.li-2{
+    right: 90px;
+}
+.li-3{
     right: 30px;
-    
 }
 
 /* MAIN */
