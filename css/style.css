@@ -35,6 +35,7 @@ li{
 }
 .li-1{
     right: 150px;
+    
 }
 .li-2{
     right: 90px;
@@ -42,8 +43,13 @@ li{
 .li-3{
     right: 30px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 /* MAIN */
+    /* SCARPE */
 .scarpa{
     width: 100%;
     height: 100vh;
@@ -51,16 +57,18 @@ li{
 
 
 }
-.scarpa1{
+#scarpa1{
     background-color: red;
+   
     
 }
-.scarpa2{
+#scarpa2{
     background-color: green;
 }
-.scarpa3{
+#scarpa3{
     background-color: yellow;
 }
+    /* IMMAGINI */
 .immagine-testo{
     position: absolute;
     top: 50%;
